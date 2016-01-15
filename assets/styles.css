@@ -1,0 +1,27 @@
+@import url("//hello.myfonts.net/count/3020ef");
+@font-face {font-family: 'CaslonGraphiqueEF';src: url('webfonts/3020EF_0_0.eot');src: url('webfonts/3020EF_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3020EF_0_0.woff2') format('woff2'),url('webfonts/3020EF_0_0.woff') format('woff'),url('webfonts/3020EF_0_0.ttf') format('truetype');}
+body {
+	background:#F9F9F7;
+	font-family: 'Josefin Sans', sans-serif;
+	width:88%;
+	max-width:600px;
+	margin:0 auto;
+	text-align:left;
+	color:#484849;
+}
+h1 {
+	font-size:85px;
+	color:black;
+	font-weight:800;
+	font-family:'CaslonGraphiqueEF';
+	letter-spacing:2px;
+}
+#flipcountdownbox1 {
+	margin-top:2.5em;
+}
+p {
+	font-size:16px;
+	text-transform:uppercase;
+	line-height:30px;
+	letter-spacing:2px;
+}

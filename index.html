@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+
+		<meta charset="utf-8">
+			
+		<title>David & Alexandra</title>
+	
+		<meta name="robots" content="index, follow">
+	
+		<meta name="description" content="The page description goes here.">
+	
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+		<link href='https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="assets/styles.css">
+		<link rel="stylesheet" type="text/css" href="assets/countdown/jquery.flipcountdown.css" />
+
+	</head>
+
+	<body>
+
+		<h1>david & alexandra</h1>
+		<p>We know some of our loved ones can't be physically present at our wedding, so we have made sure that you can be virtually present instead!</p>
+		<p>Watch the space below and before you know it our ceremony will be online for you to watch!</p>
+		<div id="flipcountdownbox1"></div>
+
+		<script src="assets/countdown/jquery.min.js"></script>
+		<script src="assets/countdown/jquery.flipcountdown.js"></script>
+		<script>
+			$(function(){
+ 				$('#flipcountdownbox1').flipcountdown({  
+  				size:'lg',
+  				beforeDateTime:'03/19/2016 14:00:01',
+ 			});
+			});
+		</script>
+
+	</body>
+
+</html>
